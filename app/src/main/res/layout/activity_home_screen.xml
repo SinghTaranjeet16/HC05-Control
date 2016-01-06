@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/item1"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:clickable="true"
+                android:editable="true"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#ff35ff9c"
+                android:textStyle="bold" />
+
+            <ToggleButton
+                android:id="@+id/OnOff1"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@drawable/toggle_switch"
+                android:gravity="center_vertical|center_horizontal"
+                android:textOff=""
+                android:textOn="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/item2"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:backgroundTint="#ffffc28a"
+                android:clickable="true"
+                android:editable="true"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#ff35ff9c"
+                android:textStyle="bold" />
+
+            <ToggleButton
+                android:id="@+id/OnOff2"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@drawable/toggle_switch"
+                android:gravity="center_vertical|center_horizontal"
+                android:textOff=""
+                android:textOn="" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/scan_led"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnscan"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="130dp"
+            android:background="@drawable/scanbtn" />
+
+
+        <ImageButton
+            android:id="@+id/Connection"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="75dp"
+            android:background="#00ffffff" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+

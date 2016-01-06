@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeScreen">
+    <item
+        android:id="@+id/action_on"
+        android:orderInCategory="100"
+        android:title="@string/action_on"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_off"
+        android:orderInCategory="101"
+        android:title="@string/action_off"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_recentlyUsed"
+        android:orderInCategory="102"
+        android:title="@string/action_recentDevice"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="103"
+        android:title="@string/action_exit"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/about"
+        android:title="@string/action_about"
+        app:showAsAction="always" />
+
+</menu>
